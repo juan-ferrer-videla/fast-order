@@ -8,6 +8,7 @@ export async function getStaticProps() {
     props: {
       sections,
     },
+    revalidate: 1200,
   };
 }
 interface Props {
