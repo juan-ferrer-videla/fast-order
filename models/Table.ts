@@ -2,8 +2,9 @@ import { Schema, model, models } from "mongoose";
 
 const product = new Schema({
   count: Number,
-  name: String,
+  title: String,
   comment: String,
+  price: Number,
 });
 
 const table = new Schema({
